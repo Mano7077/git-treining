@@ -30,11 +30,41 @@ nav{
 
 nav .logo{
     width: 80px;
-    transform: translateX(-20px);
+    transform: translateX(-50px);
+    margin-top: 10px;
 }
 
 nav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.content{
+    text-align: center;
+
+}
+
+.content h1{
+    font-size: 140px;
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+.content a{
+    text-decoration: none;
+    display: inline;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 22px;
 }
